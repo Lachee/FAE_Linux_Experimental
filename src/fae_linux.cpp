@@ -58,7 +58,7 @@ std::vector<patternData_t> patternList = {
     "74 17 48 8b 10 80 7a 3e 01 75 ee 80 7a 40 01 75 e8 80 7a 41 01 74 e2 eb 3c"},
 
     {PATCH_TYPE_JZJMP, "SteamContext::updateAchievementStatsFromSteam",
-    "74 ? 48 8b ? 80 7A ? ? ? ? 80 7A ? ? ? ? 80 7A ? ? ? ? e9 22 01 00 00"},
+    "74 ? 48 8b ? 80 7A ? ? ? ? 80 7A ? ? ? ? 80 7A ? ? ? ? e9 ? 01 00 00"},
 
     {PATCH_TYPE_JZJMP, "SteamContext::unlockAchievementsThatAreOnSteamButArentActivatedLocally",
     "74 ? 48 ba 74 65 73 74 5f 6d 6f 64 eb ? 0f 1f 84 00 00 00 00 00 48 83 c0 08"},
